@@ -68,7 +68,7 @@ p {
 }
 
 .currency input {
-	border: 0;
+	border: none;
 	background: transparent;
 	font-size: 30px;
 	text-align: right;
@@ -88,7 +88,7 @@ p {
 
 select:focus,
 input:focus,
-button:focus {
+button:focus, input:active {
 	outline: none;
 }
 
